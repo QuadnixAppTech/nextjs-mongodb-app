@@ -1,6 +1,9 @@
 import { MongoClient } from 'mongodb';
+import getConfig from 'next/config';
 
-const client = new MongoClient(process.env.MONGODB_URI, {
+const { serverRuntimeConfig } = getConfig();
+
+const client = new MongoClient(serverRuntimeConfig.MONGODB_URI, {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });

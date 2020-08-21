@@ -12,6 +12,13 @@ A full-fledged app made with [**Next.js**](https://github.com/zeit/next.js/) and
 
 </div>
 
+### Quadnix Plugins
+This website is also hosted under [**Quadnix Plugins**](https://plugins.quadnix.com).
+You can access this website here http://nextjsmongo-rahul.engine.quadnix.com
+
+#### Command to zip this project locally.
+> zip -r nextjs-mongodb-app-v0.0.1.zip . -x .DS_Store -x .git/\* -x .idea/\* -x node_modules/\* -x .next/\*
+
 <h2 align="center">Features</h2>
 
 <p align="center">:heavy_check_mark: No Express.js :heavy_check_mark: Serverless ready :heavy_check_mark: API Routes :heavy_check_mark: Middleware</p>
@@ -100,7 +107,6 @@ The environment variables [will be inlined during build time](https://nextjs.org
 
 Required environmental variables in this project include:
 
-- `process.env.MONGODB_URI` The MongoDB Connection String (with credentials)
 - `process.env.EMAIL_FROM` The email address to send your emails from.
 - `process.env.DB_NAME` The name of the MongoDB database to be used.
 - `process.env.WEB_URI` The *URL* of your web.

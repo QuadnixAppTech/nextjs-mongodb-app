@@ -1,0 +1,15 @@
+version: 0.1
+
+phases:
+  install:
+    commands:
+      - yarn install
+  pre_build:
+    commands:
+      - cp .quadnix/.env .env
+  build:
+    commands:
+      - yarn build
+
+depends_on:
+  - database
