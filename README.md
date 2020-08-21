@@ -14,7 +14,7 @@ A full-fledged app made with [**Next.js**](https://github.com/zeit/next.js/) and
 
 ### Quadnix Plugins
 This website is also hosted under [**Quadnix Plugins**](https://plugins.quadnix.com).
-You can access this website here http://nextjsmongo-rahul.engine.quadnix.com
+You can access this website here http://nextjsmongo-quadnix.engine.quadnix.com
 
 #### Command to zip this project locally.
 > zip -r nextjs-mongodb-app-v0.0.1.zip . -x .DS_Store -x .git/\* -x .idea/\* -x node_modules/\* -x .next/\*
